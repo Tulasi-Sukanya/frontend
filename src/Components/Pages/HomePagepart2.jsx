@@ -282,7 +282,7 @@ const HomePagepart2 = () => {
 
   return (
     <div id="one-stop-platform-container">
-      {/* <ToastContainer /> */}
+      <ToastContainer />y
       <div className="platform-container-heading">
         <div className="heading1">A One stop Platform</div>
         <div className="heading2">Practice and learn till you are perfect</div>
