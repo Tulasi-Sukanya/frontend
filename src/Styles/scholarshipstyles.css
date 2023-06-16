@@ -1,0 +1,414 @@
+.navbar{
+    background-color: #032D6B;
+    height:auto;
+    width: 100%;
+    display: flex;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    font-weight: bold;
+}
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-link{
+    color: #FFFFFF;
+}
+.scholarship-register-button{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1;
+    transition: all .3s;
+}
+.elementor-section{
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    min-height: 600px;
+}
+.elementor-colmun{
+    margin-right: auto;
+    margin-left: auto;
+}
+.elementor-wiget-wrap{
+    display: flex;
+}
+.elementor-image img{
+    float: right;
+}
+.elements{
+    /* padding: 10%; */
+    padding: auto;
+    margin-top: 16%;
+}
+.elements img{
+    height: 40px;
+    display: inline-block;
+    margin-left: 15px;
+    /* max-width: 100%; */
+}
+h2{
+    color: #032D6B;
+    margin: 0 14.4px;
+    font-weight: 900;
+}
+h3{
+    color: #F96B24;
+    margin: 0 14.4px;
+    font-weight: 900;
+}
+span{
+    color: #28292F;
+    margin: 0 14.4px;
+    font-size:12px;
+}
+li{
+    /* color: #032D6B; */
+    font-size:16px;
+    padding: 0 0 0 5px;
+    margin: 0 14.4px;
+    text-decoration: none;
+}
+li:hover{
+    color:#F96B24;
+    border-bottom: 3px solid #F96B24;
+}
+.sub-li{
+    font-size: 16px;
+    color: #032D6B;
+    padding: 0px 0px 0px 5px;
+    font-weight: 600;
+}
+.register-btn{
+    text-decoration: inherit;
+    display: inline-block;
+    color: #FFFFFF;
+    background-color: #F96B24;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #FF8717;
+    border-bottom: 4px solid #FF8717;
+    border-radius: 5px;
+    padding: 10px 45px 10px 45px;
+    font-family: "Roboto",Sans-serif;
+    margin: 0 14.4px;
+}
+
+.elementor-section-test-highlights{
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,box-shadow 0.3s;
+}
+.elementor-test-container{
+    -webkit-box-align: center;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    /* margin: 5px; */
+    justify-content: center;
+}
+.heading{
+    font-weight: bold;
+}
+.element{
+    background-color: #032D6B;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 12px 10px 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.element img{
+    vertical-align: middle;
+    display: inline-block;
+    height: 57px;
+    max-width: 57px;
+    border:3px solid #FF8717;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: #FF8717;
+};
+.element span{
+    color: #FFFFFF;
+    font-size: 17px;
+};
+.section-heading h2{
+    text-align: center;
+}
+.progress-bar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width:auto;
+}
+
+.scholarship-container{
+    background-color: #032D6B;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.progress_bar{
+    margin: auto;
+    max-width:90%;
+    height: 20px;
+    background-color:#FFFFFF;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #444;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: right;
+}
+.progress_bar h2{
+    font-size: 17px;
+    color:#28292F;
+    margin-top: -10px;
+}
+.Progress_line{
+    position: relative;
+    max-width: 60%;
+    height: 100%;
+    background-color:#F96B24;
+    box-shadow: -1px -1px 2px #222222 1px 1px 2px #111111;
+    border-radius: 15px;
+    padding: 15px;
+    margin:-25px;
+    text-align: center;
+}
+.Progress_line h2{
+    color: #FFFFFF;
+    font-size: 17px;
+    margin-top: -10px;
+}
+
+.elementor-placement-record{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.placement-heading h2{
+    font-size: 25px;
+    color: #F96B24;
+}
+.placement-sub-heading h2{
+    font-size: 17px;
+    color: #032D6B;
+    font-style: normal;
+    margin-left: 25px;
+}
+.cnsat-container{
+    align-items: center;
+    align-content:center;
+    display: flex;
+    justify-content: center;
+}
+.cnsat-content{
+    flex-wrap: wrap;
+    padding: 10px;
+    line-height: -1px;
+}
+.cnsat-content h2{
+    color: #F96B24;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 1px;
+}
+.cnsat-content p{
+    font-size: 16px;
+    color:#7A7A7A;
+    margin:0px 0px 1.4px;
+}
+.cnsat-content button{
+    display: inline-block;
+    color: #FFFFFF;
+    background-image:linear-gradient(50deg, #F96B24 0%, #FF9110 100%);
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #F96B24;
+    border-bottom: 5px solid #FF8717;
+    border-radius: 5px;
+    padding: 10px 45px 10px 45px;
+    font-family: "Roboto",Sans-serif;
+}
+.cnsat-content button:hover{
+    background-image:linear-gradient(50deg, #F96B24 100%,  #FF9110 0%);
+}
+.cnsat-image{
+    vertical-align: middle;
+    display: inline-block;
+}
+.cnsat-image img{
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.popular-courses{
+    /* padding-left: 5%; */
+    padding: 40px 0px 40px 0px;
+    background-color: #032D6B;
+    font-size: 14px;
+}
+.courses-title{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+.course{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+.row{
+    padding-left: 10%;
+}
+.list-buttons img{
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: 0.3s all linear;
+}
+ .list-buttons img:hover{
+    transform: scale(1.1);
+ }
+ul {
+      padding:0;
+      list-style: none;
+  }
+
+.participation-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.participate{
+    flex-wrap: wrap;
+    padding: 10px;
+    line-height: -1px;
+    align-content: flex-start;
+}
+.participate h2{
+    color: #032D6B;
+    font-size: 25px;
+    font-weight: 900;
+}
+.participate span{
+    color: #032D6B;
+    font-size: 18px;
+    padding: 0px 0px 0px 12px;
+    align-self: center;
+}
+.participation-image{
+    width: 25%;
+    vertical-align: middle;
+    align-self: center;
+    display: inline-block;
+    padding: 10px;
+}
+.participation-image img{
+    height: auto;
+    max-width: 120%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.participate .terms{
+    color:#4A4B57;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1px;
+}
+.participate button{
+    display: inline-block;
+    color: #FFFFFF;
+    background-image:linear-gradient(50deg, #F96B24 0%, #FF9110 100%);
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #F96B24;
+    border-bottom: 5px solid #FF8717;
+    border-radius: 5px;
+    padding: 10px 45px 10px 45px;
+}
+.paticipate button:hover{
+    background-image:linear-gradient(50deg, #F96B24 100%,  #FF9110 0%);
+}
+.Faq-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px 40px 0px;
+}
+.Faq-content{
+    max-width: 100%;
+}
+.Faq-content h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+}
+font{
+    color: #032D6B;
+    font-size: 16px;
+}
+Accordion{
+    border-width: 1px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+    padding: 15px;
+    border-bottom: 1px solid #d4d4d4;
+    cursor: pointer;
+    outline:none;
+}
+
+footer{
+    background-color: #032D6B;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .footer-logo{
+    width: 31%;
+}
+.footer-logo img{
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    max-width: 50%;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+.footer-content{
+    align-content: flex-end;
+    margin: 15px;
+}
+.footer-content .policy{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: inherit;
+}
+.footer-content .copyright{
+    font-size: 17px;
+    color: #FFFFFF;
+    font-weight: 800;
+    line-height: -1px;
+}
